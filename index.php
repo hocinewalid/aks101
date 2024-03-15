@@ -1,6 +1,6 @@
 <?php
  
-
+ echo "Hello, World! This is a PHP web application running in a Docker container.";
 
 ?>
 
