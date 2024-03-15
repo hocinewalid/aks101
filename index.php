@@ -12,6 +12,6 @@
     <title>my app</title>
 </head>
 <body>
-    
+    <h1>new update</h1>
 </body>
 </html>
