@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: hocinewalidaks 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hocinewalidaks
+  template:
+    metadata:
+      labels:
+        app: hocinewalidaks 
+    spec:
+      containers:
+        - name: hocinewalidaks 
+          image: akslabacr0101.azurecr.io/hocinewalidaks
+          ports:
+          - containerPort: 80
