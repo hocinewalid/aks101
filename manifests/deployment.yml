@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: aksimg 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: aksimg
+  template:
+    metadata:
+      labels:
+        app: aksimg 
+    spec:
+      containers:
+        - name: aksimg 
+          image: akslabacr0101.azurecr.io/aksimg
+          ports:
+          - containerPort: 80
