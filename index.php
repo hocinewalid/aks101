@@ -15,7 +15,7 @@
     <h1>new update</h1>
     <h1>new update 2</h1>
     <h1>new update 2</h1>
-    <h1>the last </h1>
+    <h1>the last</h1>
 
  
 </body>
