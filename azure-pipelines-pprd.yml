@@ -14,7 +14,7 @@ variables:
   imageRepository: 'hocinewalidaks'
   containerRegistry: 'akslabacr0101.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
-  tag: '$(Build.BuildId)'
+  tag: 'pprd'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
