@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '54ecf70e-9555-4c34-be26-748788474bc4'
-  imageRepository: 'hocinewalidaks'
+  imageRepository: 'pprdimg'
   containerRegistry: 'akslabacr0101.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: 'pprd'
